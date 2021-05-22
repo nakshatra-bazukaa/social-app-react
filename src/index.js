@@ -5,7 +5,7 @@ import App from './components/App';
 import { configureStore } from './store';
 
 const store = configureStore();
-console.log(store.getState());
+console.log('store', store.getState());
 ReactDOM.render(
   <React.StrictMode>
     <App />
